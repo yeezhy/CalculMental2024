@@ -14,6 +14,10 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import com.example.calculatriceg1java.database.CalculBaseHelper;
+import com.example.calculatriceg1java.database.CalculDao;
+import com.example.calculatriceg1java.entities.Calcul;
+
 public class CalculActivity extends AppCompatActivity {
 
     private TextView textViewCalcul;
@@ -37,6 +41,8 @@ public class CalculActivity extends AppCompatActivity {
     private Integer deuxiemeElement=0;
     private TypeOperation typeOperation;
     private Integer resultat;
+
+    private CalculDao calculDao;
 
 
 
@@ -82,6 +88,8 @@ public class CalculActivity extends AppCompatActivity {
         boutonSubstract.setOnClickListener(view -> appuieBoutonOperation("-"));
         boutonPlus.setOnClickListener(view -> appuieBoutonOperation("+"));
         boutonMultiply.setOnClickListener(view -> appuieBoutonOperation("x"));
+        calculDao = new CalculDao(new CalculBaseHelper(this,"db",1));
+
 
     }
     
@@ -149,6 +157,12 @@ public class CalculActivity extends AppCompatActivity {
     private Boolean calculerEtAfficher(){
         calculer();
         modifieResultat();
+        Calcul toSave = new Calcul();
+        toSave.setPremierElement(premierElement);
+        toSave.setDeuxiemeElement(deuxiemeElement);
+        toSave.setSymbole(typeOperation.getSymbole());
+        toSave.setResultat(resultat);
+        calculDao.create(toSave);
         return true;
     }
 
