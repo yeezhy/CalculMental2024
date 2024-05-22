@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="text_Hello_WORLD">Bonjour Monde en allemand</string>
+    <string name="clear_item">Effacer en allemand</string>
+    <string name="button_calculer">Calcuer en allemand</string>
+    <string name="ERROR_TYPE_OPERATION">Arrete ça en allemand</string>
+
+
+
+</resources>
