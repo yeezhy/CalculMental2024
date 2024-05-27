@@ -4,6 +4,8 @@
     <string name="clear_item">Effacer en allemand</string>
     <string name="button_calculer">Calcuer en allemand</string>
     <string name="ERROR_TYPE_OPERATION">Arrete ça en allemand</string>
+    <string name="TEXT_TEXTVIEW_NOMBRE_CALCUL">Il y a %1$d calculs dans la base en allemand</string>
+    <string name="TEXT_TEXTVIEW_DERNIER_CALCUL">Le dernier calcul est  %1$s en allemand</string>
 
 
 

@@ -33,7 +33,8 @@ public class MainActivity extends AppCompatActivity {
         });
 
         boutonHistorique.setOnClickListener(view ->{
-            boutonCalcul.setText("JEAN PAUL");
+            Intent intent = new Intent(this, HistoriqueActivity.class);
+            startActivity(intent);
         });
 
 

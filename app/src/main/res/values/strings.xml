@@ -24,6 +24,8 @@
     <string name="clear_item">Effacer</string>
     <string name="button_calculer">Calcuer</string>
     <string name="ERROR_TYPE_OPERATION">Arrete ça</string>
+    <string name="TEXT_TEXTVIEW_NOMBRE_CALCUL">Il y a %1$d calculs dans la base</string>
+    <string name="TEXT_TEXTVIEW_DERNIER_CALCUL">Le dernier calcul est  %1$s</string>
 
     <string name="lorem_ipsum" translatable="false">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
