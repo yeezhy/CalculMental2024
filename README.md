@@ -32,7 +32,7 @@ Un champs de saisie de texte , et un bouton enregistrer (lors d'un appui sur enr
 
 Activité high score:
 
-AU chargement on affiche les infos du meilleur ( On vient select unuqiement le meilleur score)
+AU chargement on affiche les infos du meilleur ( on vinet afficher tout les scores)
 
 Activité a propos :
 
