@@ -10,18 +10,23 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Calculatriceg1java"
-        tools:targetApi="31">
+        android:theme="@style/Theme.CalculMental"
+        tools:targetApi="28">
         <activity
-            android:name=".HistoriqueActivity"
+            android:name=".InputActivity"
             android:exported="false" />
         <activity
-            android:name=".CalculActivity"
+            android:name=".GameActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AboutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ScoresActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true"
-            android:theme="@style/Theme.Calculatriceg1java">
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

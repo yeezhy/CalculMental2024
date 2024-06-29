@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.calculatriceg1java"
+    namespace = "com.example.calculmental"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.calculatriceg1java"
+        applicationId = "com.example.calculmental"
         minSdk = 28
         targetSdk = 34
         versionCode = 1
